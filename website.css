@@ -1,0 +1,183 @@
+@import url('https://fonts-online.ru/fonts/christmas-reign-deco-personal https://fonts-online.ru/fonts/bickham-script-one');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Christmas Reign PERSONAL", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header.container {
+    text-transform: uppercase;
+    font-size: 48px;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px 0;
+    color: #000000;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.hero--info {
+    width: 1200px;
+}
+
+.hero--info h1 {
+    font-family: Bickham Script One;
+    font-size: 128px;
+    color: #483B2B;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.hero--info h2 {
+    font-family: Bickham Script One;
+    font-size: 96px;
+    color: #483B2B;
+    font-weight: lighter;
+    float: right;   
+    margin-top: -60px;
+}
+
+.hero img {
+margin-top: -50px;
+}
+
+/*Секция с продажами*/
+
+.trending {
+    position: relative;
+    min-height: 1200px;
+    background-color: #121212;
+    overflow: hidden;
+    padding: 80px;
+}
+
+.trending-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.trending-header h2 {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+}
+
+.trending-header a {
+    color: white;
+    background-color: #585858;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 30px;
+    padding: 10px 60px;
+}
+
+.circle {
+    position: absolute;
+    width: 1400px;
+    height: 1400px;
+
+    background: white;
+
+    border-radius: 50%;
+
+    left: 50%;
+    top: 100px;
+
+    transform: translateX(-50%);
+
+    z-index: 1;
+}
+
+.album-card {
+    position: relative;
+
+    z-index: 2;
+
+    text-align: center;
+
+    margin-top: 200px;
+}
+
+.album-card img {
+    width: 400px;
+    bottom: 400px;
+    position: relative;
+    z-index: 3;
+}
+
+.album-card h3 {
+    color: black;
+    font-size: 32px;
+    position: relative;
+    z-index: 3;
+    bottom: 370px;
+}
+
+.album-card button {
+    padding: 15px 30px;
+
+    border: none;
+
+    background: black;
+
+    color: white;
+
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    bottom: 350px;
+}
+
+.left-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 600px;
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ÉLÉGANCE — Luxury Perfume</title>
+
+    <link rel="stylesheet" href="luxxduhi.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="logo">
+            ÉLÉGANCE
+        </div>
+
+        <nav class="nav">
+            <a href="#home">Главная</a>
+            <a href="#collection">Коллекция</a>
+            <a href="#story">О бренде</a>
+            <a href="#notes">Ноты</a>
+        </nav>
+
+        <button class="menu-btn">
+            ☰
+        </button>
+
+        <button class="bag">
+            Сумка <span id="cart-count">0</span>
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                PARFUM · PARIS · 2026
+            </p>
+
+            <h1>
+                Scent<br>
+                of <i>Elegance</i>
+            </h1>
+
+            <p class="hero-description">
+                Аромат, который не просто ощущается —
+                он остаётся в памяти.
+            </p>
+
+            <a href="#collection" class="main-btn">
+                Открыть коллекцию
+            </a>
+
+        </div>
+
+        <div class="hero-bottle">
+
+            <div class="glow"></div>
+
+            <div class="perfume-bottle">
+
+                <div class="cap"></div>
+
+                <div class="bottle-body">
+                    <span>ÉLÉGANCE</span>
+                    <small>NO. 01</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COLLECTION -->
+
+    <section class="collection" id="collection">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="eyebrow">LA COLLECTION</p>
+
+                <h2>
+                    Искусство<br>
+                    <i>аромата</i>
+                </h2>
+            </div>
+
+            <p>
+                Четыре уникальных композиции,
+                созданных для разных граней личности.
+            </p>
+
+        </div>
+
+
+        <div class="products">
+
+            <!-- CARD 1 -->
+
+            <article class="product">
+
+                <div class="product-image bottle-dark">
+
+                    <div class="mini-bottle">
+                        <div class="mini-cap"></div>
+                        <div class="mini-body">
+                            É
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <div>
+                        <p class="product-number">01</p>
+
+                        <h3>Éclat Noir</h3>
+
+                        <p class="type">
+                            Eau de Parfum
+                        </p>
+                    </div>
+
+                    <strong>
+                        75 000 ₸
+                    </strong>
+
+                </div>
+
+                <button
+                    class="add-btn"
+                    data-name="Éclat Noir">
+
+                    Добавить в сумку
+
+                </button>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+
+            <article class="product">
+
+                <div class="product-image bottle-beige">
+
+                    <div class="mini-bottle">
+                        <div class="mini-cap"></div>
+                        <div class="mini-body">
+                            É
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <div>
+                        <p class="product-number">02</p>
+
+                        <h3>Velours</h3>
+
+                        <p class="type">
+                            Eau de Parfum
+                        </p>
+                    </div>
+
+                    <strong>
+                        82 000 ₸
+                    </strong>
+
+                </div>
+
+                <button
+                    class="add-btn"
+                    data-name="Velours">
+
+                    Добавить в сумку
+
+                </button>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+
+            <article class="product">
+
+                <div class="product-image bottle-red">
+
+                    <div class="mini-bottle">
+                        <div class="mini-cap"></div>
+                        <div class="mini-body">
+                            É
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <div>
+                        <p class="product-number">03</p>
+
+                        <h3>Rouge</h3>
+
+                        <p class="type">
+                            Eau de Parfum
+                        </p>
+                    </div>
+
+                    <strong>
+                        79 000 ₸
+                    </strong>
+
+                </div>
+
+                <button
+                    class="add-btn"
+                    data-name="Rouge">
+
+                    Добавить в сумку
+
+                </button>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRAND STORY -->
+
+    <section class="story" id="story">
+
+        <div class="story-image">
+
+            <div class="story-circle">
+                É
+            </div>
+
+        </div>
+
+        <div class="story-text">
+
+            <p class="eyebrow">
+                NOT JUST A PERFUME
+            </p>
+
+            <h2>
+                Аромат как<br>
+                <i>искусство.</i>
+            </h2>
+
+            <p>
+                ÉLÉGANCE — это современная интерпретация
+                французской парфюмерной традиции.
+            </p>
+
+            <p>
+                Мы соединяем редкие ингредиенты,
+                мастерство парфюмеров и минималистичный
+                дизайн, чтобы создавать ароматы,
+                которые становятся частью вашей истории.
+            </p>
+
+            <a href="#notes" class="text-link">
+                Узнать больше →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- NOTES -->
+
+    <section class="notes" id="notes">
+
+        <div class="notes-title">
+
+            <p class="eyebrow">
+                THE COMPOSITION
+            </p>
+
+            <h2>
+                Из чего<br>
+                <i>рождается</i> аромат?
+            </h2>
+
+        </div>
+
+
+        <div class="notes-list">
+
+            <div class="note">
+
+                <span>01</span>
+
+                <div>
+                    <h3>Верхние ноты</h3>
+                    <p>
+                        Бергамот · Розовый перец · Нероли
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="note">
+
+                <span>02</span>
+
+                <div>
+                    <h3>Сердце</h3>
+                    <p>
+                        Ирис · Жасмин · Болгарская роза
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="note">
+
+                <span>03</span>
+
+                <div>
+                    <h3>База</h3>
+                    <p>
+                        Амбра · Сандал · Ваниль · Мускус
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <p class="eyebrow">
+            FIND YOUR SIGNATURE
+        </p>
+
+        <h2>
+            Найдите аромат,<br>
+            который <i>говорит за вас.</i>
+        </h2>
+
+        <a href="#collection" class="main-btn">
+            Выбрать аромат
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            ÉLÉGANCE
+        </div>
+
+        <p>
+            Parfum · Paris · Since 2026
+        </p>
+
+        <div class="socials">
+            Instagram &nbsp; · &nbsp;
+            Telegram &nbsp; · &nbsp;
+            Contact
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
